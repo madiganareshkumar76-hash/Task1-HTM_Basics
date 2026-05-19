@@ -1,0 +1,314 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Only Website</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .tag-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .tag-box {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .tag-name {
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            color: #0066cc;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        .tag-example {
+            font-family: 'Courier New', monospace;
+            background: #f0f0f0;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #333;
+        }
+        .tag-desc {
+            font-size: 12px;
+            color: #666;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Tags Reference Website</h1>
+    
+    <div class="tag-container">
+        <!-- Document Structure -->
+        <div class="tag-box">
+            <div class="tag-name">&lt;!DOCTYPE&gt;</div>
+            <div class="tag-example">&lt;!DOCTYPE html&gt;</div>
+            <div class="tag-desc">Declares HTML5 document</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;html&gt;</div>
+            <div class="tag-example">&lt;html lang="en"&gt;</div>
+            <div class="tag-desc">Root element of page</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;head&gt;</div>
+            <div class="tag-example">&lt;head&gt;&lt;/head&gt;</div>
+            <div class="tag-desc">Contains metadata</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;title&gt;</div>
+            <div class="tag-example">&lt;title&gt;Page Title&lt;/title&gt;</div>
+            <div class="tag-desc">Browser tab title</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;meta&gt;</div>
+            <div class="tag-example">&lt;meta charset="UTF-8"&gt;</div>
+            <div class="tag-desc">Character set/viewport</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;body&gt;</div>
+            <div class="tag-example">&lt;body&gt;&lt;/body&gt;</div>
+            <div class="tag-desc">Visible content area</div>
+        </div>
+        
+        <!-- Headings -->
+        <div class="tag-box">
+            <div class="tag-name">&lt;h1&gt;</div>
+            <div class="tag-example">&lt;h1&gt;Heading&lt;/h1&gt;</div>
+            <div class="tag-desc">Main heading (largest)</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;h2&gt;</div>
+            <div class="tag-example">&lt;h2&gt;Heading&lt;/h2&gt;</div>
+            <div class="tag-desc">Section heading</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;h3&gt;</div>
+            <div class="tag-example">&lt;h3&gt;Heading&lt;/h3&gt;</div>
+            <div class="tag-desc">Subsection heading</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;h4&gt;</div>
+            <div class="tag-example">&lt;h4&gt;Heading&lt;/h4&gt;</div>
+            <div class="tag-desc">Minor heading</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;h5&gt;</div>
+            <div class="tag-example">&lt;h5&gt;Heading&lt;/h5&gt;</div>
+            <div class="tag-desc">Less important heading</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;h6&gt;</div>
+            <div class="tag-example">&lt;h6&gt;Heading&lt;/h6&gt;</div>
+            <div class="tag-desc">Lowest heading</div>
+        </div>
+        
+        <!-- Text & Content -->
+        <div class="tag-box">
+            <div class="tag-name">&lt;p&gt;</div>
+            <div class="tag-example">&lt;p&gt;Text&lt;/p&gt;</div>
+            <div class="tag-desc">Paragraph text</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;a&gt;</div>
+            <div class="tag-example">&lt;a href="url"&gt;Link&lt;/a&gt;</div>
+            <div class="tag-desc">Hyperlink</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;img&gt;</div>
+            <div class="tag-example">&lt;img src="x" alt="y"&gt;</div>
+            <div class="tag-desc">Embed image</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;strong&gt;</div>
+            <div class="tag-example">&lt;strong&gt;Bold&lt;/strong&gt;</div>
+            <div class="tag-desc">Important/bold text</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;em&gt;</div>
+            <div class="tag-example">&lt;em&gt;Italic&lt;/em&gt;</div>
+            <div class="tag-desc">Emphasized/italic text</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;br&gt;</div>
+            <div class="tag-example">&lt;br&gt;</div>
+            <div class="tag-desc">Line break</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;hr&gt;</div>
+            <div class="tag-example">&lt;hr&gt;</div>
+            <div class="tag-desc">Horizontal rule</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;code&gt;</div>
+            <div class="tag-example">&lt;code&gt;code&lt;/code&gt;</div>
+            <div class="tag-desc">Inline code snippet</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;blockquote&gt;</div>
+            <div class="tag-example">&lt;blockquote&gt;Quote&lt;/blockquote&gt;</div>
+            <div class="tag-desc">Long quotation</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;pre&gt;</div>
+            <div class="tag-example">&lt;pre&gt;text&lt;/pre&gt;</div>
+            <div class="tag-desc">Preformatted text</div>
+        </div>
+        
+        <!-- Lists -->
+        <div class="tag-box">
+            <div class="tag-name">&lt;ul&gt;</div>
+            <div class="tag-example">&lt;ul&gt;&lt;/ul&gt;</div>
+            <div class="tag-desc">Unordered list</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;ol&gt;</div>
+            <div class="tag-example">&lt;ol&gt;&lt;/ol&gt;</div>
+            <div class="tag-desc">Ordered list</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;li&gt;</div>
+            <div class="tag-example">&lt;li&gt;Item&lt;/li&gt;</div>
+            <div class="tag-desc">List item</div>
+        </div>
+        
+        <!-- Containers -->
+        <div class="tag-box">
+            <div class="tag-name">&lt;div&gt;</div>
+            <div class="tag-example">&lt;div&gt;content&lt;/div&gt;</div>
+            <div class="tag-desc">Block container</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;span&gt;</div>
+            <div class="tag-example">&lt;span&gt;text&lt;/span&gt;</div>
+            <div class="tag-desc">Inline container</div>
+        </div>
+        
+        <!-- Tables -->
+        <div class="tag-box">
+            <div class="tag-name">&lt;table&gt;</div>
+            <div class="tag-example">&lt;table&gt;&lt;/table&gt;</div>
+            <div class="tag-desc">Table container</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;tr&gt;</div>
+            <div class="tag-example">&lt;tr&gt;&lt;/tr&gt;</div>
+            <div class="tag-desc">Table row</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;th&gt;</div>
+            <div class="tag-example">&lt;th&gt;Header&lt;/th&gt;</div>
+            <div class="tag-desc">Table header cell</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;td&gt;</div>
+            <div class="tag-example">&lt;td&gt;Data&lt;/td&gt;</div>
+            <div class="tag-desc">Table data cell</div>
+        </div>
+        
+        <!-- Forms -->
+        <div class="tag-box">
+            <div class="tag-name">&lt;form&gt;</div>
+            <div class="tag-example">&lt;form&gt;&lt;/form&gt;</div>
+            <div class="tag-desc">Form container</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;input&gt;</div>
+            <div class="tag-example">&lt;input type="text"&gt;</div>
+            <div class="tag-desc">Input field</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;button&gt;</div>
+            <div class="tag-example">&lt;button&gt;Click&lt;/button&gt;</div>
+            <div class="tag-desc">Clickable button</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;label&gt;</div>
+            <div class="tag-example">&lt;label&gt;Label&lt;/label&gt;</div>
+            <div class="tag-desc">Form label</div>
+        </div>
+        
+        <!-- Semantic HTML5 -->
+        <div class="tag-box">
+            <div class="tag-name">&lt;header&gt;</div>
+            <div class="tag-example">&lt;header&gt;&lt;/header&gt;</div>
+            <div class="tag-desc">Page header</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;footer&gt;</div>
+            <div class="tag-example">&lt;footer&gt;&lt;/footer&gt;</div>
+            <div class="tag-desc">Page footer</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;nav&gt;</div>
+            <div class="tag-example">&lt;nav&gt;&lt;/nav&gt;</div>
+            <div class="tag-desc">Navigation menu</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;article&gt;</div>
+            <div class="tag-example">&lt;article&gt;&lt;/article&gt;</div>
+            <div class="tag-desc">Independent article</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;section&gt;</div>
+            <div class="tag-example">&lt;section&gt;&lt;/section&gt;</div>
+            <div class="tag-desc">Document section</div>
+        </div>
+        
+        <div class="tag-box">
+            <div class="tag-name">&lt;main&gt;</div>
+            <div class="tag-example">&lt;main&gt;&lt;/main&gt;</div>
+            <div class="tag-desc">Main content area</div>
+        </div>
+    </div>
+</body>
+</html>
